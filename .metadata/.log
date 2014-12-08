@@ -1,4 +1,4 @@
-!SESSION 2014-12-08 11:04:18.501 -----------------------------------------------
+!SESSION 2014-12-08 12:16:34.928 -----------------------------------------------
 eclipse.buildId=4.3.2.M20140221-1700
 java.version=1.7.0_45
 java.vendor=Oracle Corporation
@@ -6,111 +6,23 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
 Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
 
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 11:04:31.465
+!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:16:43.212
 !MESSAGE System property http.proxyHost is not set but should be proxy1.hella.com.
 
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 11:04:31.465
+!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:16:43.212
 !MESSAGE System property http.proxyPort is not set but should be 3128.
 
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 11:04:31.496
+!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:16:43.212
 !MESSAGE System property https.proxyHost is not set but should be proxy1.hella.com.
 
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 11:04:31.496
+!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:16:43.212
 !MESSAGE System property https.proxyPort is not set but should be 3128.
 
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 11:04:31.512
+!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:16:43.212
 !MESSAGE System property https.proxyHost is not set but should be proxy1.hella.com.
 
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 11:04:31.512
+!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:16:43.227
 !MESSAGE System property https.proxyPort is not set but should be 3128.
 
-!ENTRY com.ibm.rational.rhapsody.wfi.communications 1 0 2014-12-08 11:04:36.176
+!ENTRY com.ibm.rational.rhapsody.wfi.communications 1 0 2014-12-08 12:16:46.847
 !MESSAGE Waiting for Rhapsody messages on port 5002
-
-!ENTRY com.ibm.rational.rhapsody.wfi.communications 4 0 2014-12-08 12:01:17.767
-!MESSAGE Socket Exception while recieving Rhapsody message
-!STACK 0
-java.net.SocketException: socket closed
-	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
-	at java.net.DualStackPlainDatagramSocketImpl.receive0(Unknown Source)
-	at java.net.AbstractPlainDatagramSocketImpl.receive(Unknown Source)
-	at java.net.DatagramSocket.receive(Unknown Source)
-	at com.ibm.rational.rhapsody.wfi.communications.RhapsodyServer.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-!SESSION 2014-12-08 12:02:22.774 -----------------------------------------------
-eclipse.buildId=4.3.2.M20140221-1700
-java.version=1.7.0_45
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
-Framework arguments:  -product org.eclipse.epp.package.cpp.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
-
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:02:44.178
-!MESSAGE System property http.proxyHost is not set but should be proxy1.hella.com.
-
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:02:44.178
-!MESSAGE System property http.proxyPort is not set but should be 3128.
-
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:02:44.178
-!MESSAGE System property https.proxyHost is not set but should be proxy1.hella.com.
-
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:02:44.178
-!MESSAGE System property https.proxyPort is not set but should be 3128.
-
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:02:44.178
-!MESSAGE System property https.proxyHost is not set but should be proxy1.hella.com.
-
-!ENTRY org.eclipse.core.net 1 0 2014-12-08 12:02:44.178
-!MESSAGE System property https.proxyPort is not set but should be 3128.
-
-!ENTRY com.ibm.rational.rhapsody.wfi.communications 1 0 2014-12-08 12:02:47.672
-!MESSAGE Waiting for Rhapsody messages on port 5002
-
-!ENTRY org.eclipse.egit.ui 4 0 2014-12-08 12:04:57.143
-!MESSAGE Failed to refresh projects from index changes
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Errors occurred while refreshing resources with the local file system.
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:923)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:904)
-	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1699)
-	at org.eclipse.egit.ui.Activator$ResourceRefreshJob.run(Activator.java:356)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
-Contains: The project description file (.project) for 'EclipseExample' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-!SUBENTRY 1 org.eclipse.core.resources 4 271 2014-12-08 12:04:57.143
-!MESSAGE Errors occurred while refreshing resources with the local file system.
-!SUBENTRY 2 org.eclipse.core.resources 4 567 2014-12-08 12:04:57.143
-!MESSAGE The project description file (.project) for 'EclipseExample' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-
-!ENTRY org.eclipse.egit.ui 4 0 2014-12-08 12:04:57.143
-!MESSAGE Errors occurred while refreshing resources with the local file system.
-
-!ENTRY org.eclipse.ui.ide 4 4 2014-12-08 12:06:38.766
-!MESSAGE Problems saving workspace
-
-!ENTRY org.eclipse.ui.ide 4 1 2014-12-08 12:06:38.766
-!MESSAGE Problems occurred while trying to save the state of the workbench.
-!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-12-08 12:06:38.766
-!MESSAGE Could not write metadata for '/EclipseExample'.
-!STACK 0
-java.io.FileNotFoundException: C:\data\eclipse_test_workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\EclipseExample\.markers (Das System kann den angegebenen Pfad nicht finden)
-	at java.io.FileOutputStream.open(Native Method)
-	at java.io.FileOutputStream.<init>(Unknown Source)
-	at java.io.FileOutputStream.<init>(Unknown Source)
-	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
-	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
-
-!ENTRY com.ibm.rational.rhapsody.wfi.communications 4 0 2014-12-08 12:06:39.499
-!MESSAGE Socket Exception while recieving Rhapsody message
-!STACK 0
-java.net.SocketException: socket closed
-	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
-	at java.net.DualStackPlainDatagramSocketImpl.receive0(Unknown Source)
-	at java.net.AbstractPlainDatagramSocketImpl.receive(Unknown Source)
-	at java.net.DatagramSocket.receive(Unknown Source)
-	at com.ibm.rational.rhapsody.wfi.communications.RhapsodyServer.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
