@@ -1,0 +1,4 @@
+com.mks.integrations.eclipse.commands.ActiveChangePackageManager\ -\ LAST_KNOWN_ACTIVE_CP=\:none
+com.mks.integrations.eclipse.commands.ActiveChangePackageManager\ -\ LAST_KNOWN_ACTIVE_CP_CONNECTION=<invalid>\:0
+eclipse.preferences.version=1
+showIntro=false
